@@ -26,10 +26,10 @@ public class PersonServiceTest {
     @Test
     void getAllPerson(){
         //given
-        Person person = new Person(1,"Ahnis","Gotham");
-        Person person2 = new Person(2,"Saksham","New york");
+     //   Person person = new Person(1,"Ahnis","Gotham");
+    //    Person person2 = new Person(2,"Saksham","New york");
         //when
-        given(personRepo.findAll()).willReturn(List.of(person,person2));
+    //    given(personRepo.findAll()).willReturn(List.of(person,person2));
 
         var allPerson = personService.getAllPerson();
 
